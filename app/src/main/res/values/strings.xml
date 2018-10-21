@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">TrackFirstTask</string>
+    <string name="button_start">START</string>
+    <string name="button_stop">STOP</string>
+
+    <string name="s0"></string>
+    <string name="s1">один</string>
+    <string name="s2">два</string>
+    <string name="s3">три</string>
+    <string name="s4">четыре</string>
+    <string name="s5">пять</string>
+    <string name="s6">шесть</string>
+    <string name="s7">семь</string>
+    <string name="s8">восемь</string>
+    <string name="s9">девять</string>
+
+    <string name="s00"></string>
+    <string name="s10">десять</string>
+    <string name="s20">двадцать</string>
+    <string name="s30">тридцать</string>
+    <string name="s40">сорок</string>
+    <string name="s50">пятьдесят</string>
+    <string name="s60">шестьдесят</string>
+    <string name="s70">семьдесят</string>
+    <string name="s80">восемьдесят</string>
+    <string name="s90">девяносто</string>
+
+    <string name="s11">одиннадцать</string>
+    <string name="s12">двенадцать</string>
+    <string name="s13">тринадцать</string>
+    <string name="s14">четырнадцать</string>
+    <string name="s15">пятнадцать</string>
+    <string name="s16">шестнадцать</string>
+    <string name="s17">семьнадцать</string>
+    <string name="s18">восемьнадцать</string>
+    <string name="s19">девятнадцать</string>
+
+    <string name="s000"></string>
+    <string name="s100">сто</string>
+    <string name="s200">двести</string>
+    <string name="s300">триста</string>
+    <string name="s400">четыреста</string>
+    <string name="s500">пятьсот</string>
+    <string name="s600">шестьсот</string>
+    <string name="s700">семьсот</string>
+    <string name="s800">восемьсот</string>
+    <string name="s900">девятьсот</string>
+
+    <string name="s1000">тысяча</string>
+</resources>
