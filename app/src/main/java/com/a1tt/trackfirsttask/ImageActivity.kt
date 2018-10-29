@@ -22,6 +22,11 @@ class ImageActivity : AppCompatActivity() {
         private const val LOG_TAG = "ImageActivity"
     }
 
+    fun onBackPresed() {
+        myApplication?.countDownTimer = null
+        finish()
+    }
+
     override fun onPostResume() {
         super.onPostResume()
         Log.d(LOG_TAG, "onPostResume")

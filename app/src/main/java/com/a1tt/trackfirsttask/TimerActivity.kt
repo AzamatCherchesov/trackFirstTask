@@ -46,6 +46,11 @@ class TimerActivity : AppCompatActivity() {
         }
     }
 
+    override fun onDestroy() {
+        super.onDestroy()
+        myApplication!!.activity2 = null
+    }
+
     inner class CountTask constructor(private val myApplication: MyApplication): AsyncTask<Void, Void, Void>() {
 
         private val s = arrayOf(arrayOf(getString(R.string.s0), getString(R.string.s1), getString(R.string.s2), getString(R.string.s3), getString(R.string.s4), getString(R.string.s5), getString(R.string.s6), getString(R.string.s7), getString(R.string.s8), getString(R.string.s9)), arrayOf(getString(R.string.s00), getString(R.string.s10), getString(R.string.s20), getString(R.string.s30), getString(R.string.s40), getString(R.string.s50), getString(R.string.s60), getString(R.string.s70), getString(R.string.s80), getString(R.string.s90)), arrayOf(getString(R.string.s000), getString(R.string.s100), getString(R.string.s200), getString(R.string.s300), getString(R.string.s400), getString(R.string.s500), getString(R.string.s600), getString(R.string.s700), getString(R.string.s800), getString(R.string.s900)))
