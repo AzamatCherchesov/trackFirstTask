@@ -22,7 +22,7 @@ class ImageActivity : AppCompatActivity() {
         private const val LOG_TAG = "ImageActivity"
     }
 
-    fun onBackPresed() {
+    override fun onBackPressed() {
         myApplication?.countDownTimer = null
         finish()
     }
