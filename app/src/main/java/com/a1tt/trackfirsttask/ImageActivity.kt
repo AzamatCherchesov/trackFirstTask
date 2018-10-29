@@ -31,10 +31,10 @@ class ImageActivity : AppCompatActivity() {
         super.onPostResume()
         Log.d(LOG_TAG, "onPostResume")
 
-        if (myApplication!!.countDownTimer != null) {
-            myApplication!!.countDownTimer!!.cancel()
+        if (myApplication?.countDownTimer != null) {
+            myApplication?.countDownTimer!!.cancel()
         }
-        myApplication!!.countDownTimer = object : CountDownTimer(myApplication!!.timerCounter, 10) {
+        myApplication?.countDownTimer = object : CountDownTimer(myApplication!!.timerCounter, 10) {
             override fun onTick(millisUntilFinished: Long) {
                 myApplication!!.timerCounter = millisUntilFinished
             }

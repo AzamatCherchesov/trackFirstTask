@@ -48,7 +48,7 @@ class TimerActivity : AppCompatActivity() {
 
     override fun onDestroy() {
         super.onDestroy()
-        myApplication!!.activity2 = null
+        myApplication?.activity2 = null
     }
 
     inner class CountTask constructor(private val myApplication: MyApplication): AsyncTask<Void, Void, Void>() {
